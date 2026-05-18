@@ -12,7 +12,7 @@
  *   node qimao-rank-scraper.js --channel all --type all         # 全部采集
  *
  * 前置：
- *   bash ~/.claude/skills/browser-cdp/scripts/setup_cdp_chrome.sh 9222
+ *   node {SKILL_DIR}/browser-cdp/scripts/setup-cdp-chrome.js 9222
  */
 
 const fs = require("fs");
